@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		673F261D1D0B71B700B37526 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673F261C1D0B71B700B37526 /* MapKit.framework */; };
+		673F261F1D0B788B00B37526 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673F261E1D0B788B00B37526 /* MapViewController.swift */; };
+		673F26211D0CBBF400B37526 /* SelectLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673F26201D0CBBF400B37526 /* SelectLocationViewController.swift */; };
+		673F26231D0CD47100B37526 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673F26221D0CD47100B37526 /* MyTabBarController.swift */; };
+		673F262E1D0CDEB400B37526 /* DiaryEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673F262C1D0CDEB400B37526 /* DiaryEntry+CoreDataProperties.swift */; };
+		673F26311D0DE3C300B37526 /* DiaryEntryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673F26301D0DE3C300B37526 /* DiaryEntryDetailsViewController.swift */; };
+		673F26331D0DE4B300B37526 /* DiaryEntryDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673F26321D0DE4B300B37526 /* DiaryEntryDetailsCell.swift */; };
+		673F26351D0F4A9C00B37526 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673F26341D0F4A9C00B37526 /* LocationSearchTable.swift */; };
+		6760653E1D039DD500C78E56 /* DiaryEntriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6760653D1D039DD500C78E56 /* DiaryEntriesViewController.swift */; };
+		676065401D03A1B000C78E56 /* DiaryEntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6760653F1D03A1B000C78E56 /* DiaryEntryTableViewCell.swift */; };
+		67B336761D155EAB002F6110 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B336751D155EAB002F6110 /* AVFoundation.framework */; };
+		67B3367E1D16165D002F6110 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3367D1D16165D002F6110 /* RatingViewController.swift */; };
+		67F670751CF4685700AFF443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F670741CF4685700AFF443 /* AppDelegate.swift */; };
+		67F670771CF4685700AFF443 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F670761CF4685700AFF443 /* FirstViewController.swift */; };
+		67F6707A1CF4685700AFF443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F670781CF4685700AFF443 /* Main.storyboard */; };
+		67F6707D1CF4685700AFF443 /* Travel_Log.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67F6707B1CF4685700AFF443 /* Travel_Log.xcdatamodeld */; };
+		67F6707F1CF4685700AFF443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67F6707E1CF4685700AFF443 /* Assets.xcassets */; };
+		67F670821CF4685700AFF443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F670801CF4685700AFF443 /* LaunchScreen.storyboard */; };
+		67F6708A1CF46A6500AFF443 /* AddTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F670891CF46A6500AFF443 /* AddTripViewController.swift */; };
+		67F6708C1CF46E0F00AFF443 /* AddDiaryEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F6708B1CF46E0F00AFF443 /* AddDiaryEntryViewController.swift */; };
+		67F6709F1CF73EEB00AFF443 /* DiaryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F6709B1CF73EEB00AFF443 /* DiaryEntry.swift */; };
+		67F670A01CF73EEB00AFF443 /* Trip+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F6709C1CF73EEB00AFF443 /* Trip+CoreDataProperties.swift */; };
+		67F670A11CF73EEB00AFF443 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F6709D1CF73EEB00AFF443 /* Trip.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		673F261C1D0B71B700B37526 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		673F261E1D0B788B00B37526 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		673F26201D0CBBF400B37526 /* SelectLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLocationViewController.swift; sourceTree = "<group>"; };
+		673F26221D0CD47100B37526 /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		673F262C1D0CDEB400B37526 /* DiaryEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DiaryEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		673F26301D0DE3C300B37526 /* DiaryEntryDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryEntryDetailsViewController.swift; sourceTree = "<group>"; };
+		673F26321D0DE4B300B37526 /* DiaryEntryDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryEntryDetailsCell.swift; sourceTree = "<group>"; };
+		673F26341D0F4A9C00B37526 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		6760653D1D039DD500C78E56 /* DiaryEntriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryEntriesViewController.swift; sourceTree = "<group>"; };
+		6760653F1D03A1B000C78E56 /* DiaryEntryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryEntryTableViewCell.swift; sourceTree = "<group>"; };
+		67B336751D155EAB002F6110 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		67B3367D1D16165D002F6110 /* RatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		67B3367F1D18199F002F6110 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Main.strings"; sourceTree = "<group>"; };
+		67B336801D18199F002F6110 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		67F670711CF4685700AFF443 /* Travel Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F670741CF4685700AFF443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67F670761CF4685700AFF443 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		67F670791CF4685700AFF443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67F6707C1CF4685700AFF443 /* Travel_Log.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Travel_Log.xcdatamodel; sourceTree = "<group>"; };
+		67F6707E1CF4685700AFF443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67F670811CF4685700AFF443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67F670831CF4685700AFF443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F670891CF46A6500AFF443 /* AddTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTripViewController.swift; sourceTree = "<group>"; };
+		67F6708B1CF46E0F00AFF443 /* AddDiaryEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDiaryEntryViewController.swift; sourceTree = "<group>"; };
+		67F6708D1CF73EC000AFF443 /* Travel Log-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Travel Log-Bridging-Header.h"; sourceTree = "<group>"; };
+		67F6709B1CF73EEB00AFF443 /* DiaryEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiaryEntry.swift; path = ../DiaryEntry.swift; sourceTree = "<group>"; };
+		67F6709C1CF73EEB00AFF443 /* Trip+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Trip+CoreDataProperties.swift"; path = "../Trip+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		67F6709D1CF73EEB00AFF443 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trip.swift; path = ../Trip.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67F6706E1CF4685700AFF443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B336761D155EAB002F6110 /* AVFoundation.framework in Frameworks */,
+				673F261D1D0B71B700B37526 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67F670681CF4685700AFF443 = {
+			isa = PBXGroup;
+			children = (
+				67B336751D155EAB002F6110 /* AVFoundation.framework */,
+				673F261C1D0B71B700B37526 /* MapKit.framework */,
+				67F670731CF4685700AFF443 /* Travel Log */,
+				67F670721CF4685700AFF443 /* Products */,
+				67F6708D1CF73EC000AFF443 /* Travel Log-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		67F670721CF4685700AFF443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67F670711CF4685700AFF443 /* Travel Log.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67F670731CF4685700AFF443 /* Travel Log */ = {
+			isa = PBXGroup;
+			children = (
+				67F670A31CF73F5A00AFF443 /* ViewControllers */,
+				67F670A21CF73F0900AFF443 /* model */,
+				67F670741CF4685700AFF443 /* AppDelegate.swift */,
+				67F670781CF4685700AFF443 /* Main.storyboard */,
+				67F6707E1CF4685700AFF443 /* Assets.xcassets */,
+				67F670801CF4685700AFF443 /* LaunchScreen.storyboard */,
+				67F670831CF4685700AFF443 /* Info.plist */,
+				67F6707B1CF4685700AFF443 /* Travel_Log.xcdatamodeld */,
+			);
+			path = "Travel Log";
+			sourceTree = "<group>";
+		};
+		67F670A21CF73F0900AFF443 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				673F262C1D0CDEB400B37526 /* DiaryEntry+CoreDataProperties.swift */,
+				67F6709B1CF73EEB00AFF443 /* DiaryEntry.swift */,
+				67F6709C1CF73EEB00AFF443 /* Trip+CoreDataProperties.swift */,
+				67F6709D1CF73EEB00AFF443 /* Trip.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		67F670A31CF73F5A00AFF443 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				67F6708B1CF46E0F00AFF443 /* AddDiaryEntryViewController.swift */,
+				67F670891CF46A6500AFF443 /* AddTripViewController.swift */,
+				6760653D1D039DD500C78E56 /* DiaryEntriesViewController.swift */,
+				673F26321D0DE4B300B37526 /* DiaryEntryDetailsCell.swift */,
+				673F26301D0DE3C300B37526 /* DiaryEntryDetailsViewController.swift */,
+				6760653F1D03A1B000C78E56 /* DiaryEntryTableViewCell.swift */,
+				67F670761CF4685700AFF443 /* FirstViewController.swift */,
+				673F26341D0F4A9C00B37526 /* LocationSearchTable.swift */,
+				673F261E1D0B788B00B37526 /* MapViewController.swift */,
+				673F26221D0CD47100B37526 /* MyTabBarController.swift */,
+				67B3367D1D16165D002F6110 /* RatingViewController.swift */,
+				673F26201D0CBBF400B37526 /* SelectLocationViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67F670701CF4685700AFF443 /* Travel Log */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F670861CF4685700AFF443 /* Build configuration list for PBXNativeTarget "Travel Log" */;
+			buildPhases = (
+				67F6706D1CF4685700AFF443 /* Sources */,
+				67F6706E1CF4685700AFF443 /* Frameworks */,
+				67F6706F1CF4685700AFF443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Travel Log";
+			productName = "Travel Log";
+			productReference = 67F670711CF4685700AFF443 /* Travel Log.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67F670691CF4685700AFF443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					1,
+					map,
+				);
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CapitanBanana;
+				TargetAttributes = {
+					67F670701CF4685700AFF443 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 67F6706C1CF4685700AFF443 /* Build configuration list for PBXProject "Travel Log" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67F670681CF4685700AFF443;
+			productRefGroup = 67F670721CF4685700AFF443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67F670701CF4685700AFF443 /* Travel Log */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67F6706F1CF4685700AFF443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F670821CF4685700AFF443 /* LaunchScreen.storyboard in Resources */,
+				67F6707F1CF4685700AFF443 /* Assets.xcassets in Resources */,
+				67F6707A1CF4685700AFF443 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67F6706D1CF4685700AFF443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673F262E1D0CDEB400B37526 /* DiaryEntry+CoreDataProperties.swift in Sources */,
+				6760653E1D039DD500C78E56 /* DiaryEntriesViewController.swift in Sources */,
+				673F26211D0CBBF400B37526 /* SelectLocationViewController.swift in Sources */,
+				673F26311D0DE3C300B37526 /* DiaryEntryDetailsViewController.swift in Sources */,
+				676065401D03A1B000C78E56 /* DiaryEntryTableViewCell.swift in Sources */,
+				67F6708A1CF46A6500AFF443 /* AddTripViewController.swift in Sources */,
+				67F670A01CF73EEB00AFF443 /* Trip+CoreDataProperties.swift in Sources */,
+				673F26331D0DE4B300B37526 /* DiaryEntryDetailsCell.swift in Sources */,
+				67F670A11CF73EEB00AFF443 /* Trip.swift in Sources */,
+				67F670771CF4685700AFF443 /* FirstViewController.swift in Sources */,
+				673F261F1D0B788B00B37526 /* MapViewController.swift in Sources */,
+				67F6708C1CF46E0F00AFF443 /* AddDiaryEntryViewController.swift in Sources */,
+				67F6709F1CF73EEB00AFF443 /* DiaryEntry.swift in Sources */,
+				67F670751CF4685700AFF443 /* AppDelegate.swift in Sources */,
+				673F26351D0F4A9C00B37526 /* LocationSearchTable.swift in Sources */,
+				67B3367E1D16165D002F6110 /* RatingViewController.swift in Sources */,
+				67F6707D1CF4685700AFF443 /* Travel_Log.xcdatamodeld in Sources */,
+				673F26231D0CD47100B37526 /* MyTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67F670781CF4685700AFF443 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F670791CF4685700AFF443 /* Base */,
+				67B3367F1D18199F002F6110 /* pt-PT */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67F670801CF4685700AFF443 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F670811CF4685700AFF443 /* Base */,
+				67B336801D18199F002F6110 /* pt-PT */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67F670841CF4685700AFF443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67F670851CF4685700AFF443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67F670871CF4685700AFF443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Travel Log/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ESTG.Travel-Log";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Travel Log-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67F670881CF4685700AFF443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Travel Log/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ESTG.Travel-Log";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Travel Log-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67F6706C1CF4685700AFF443 /* Build configuration list for PBXProject "Travel Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F670841CF4685700AFF443 /* Debug */,
+				67F670851CF4685700AFF443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67F670861CF4685700AFF443 /* Build configuration list for PBXNativeTarget "Travel Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F670871CF4685700AFF443 /* Debug */,
+				67F670881CF4685700AFF443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		67F6707B1CF4685700AFF443 /* Travel_Log.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67F6707C1CF4685700AFF443 /* Travel_Log.xcdatamodel */,
+			);
+			currentVersion = 67F6707C1CF4685700AFF443 /* Travel_Log.xcdatamodel */;
+			path = Travel_Log.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 67F670691CF4685700AFF443 /* Project object */;
+}

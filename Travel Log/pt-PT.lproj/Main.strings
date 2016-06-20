@@ -1,0 +1,144 @@
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "2U4-6O-6C4"; */
+"2U4-6O-6C4.text" = "Data";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "5cB-uG-kGh"; */
+"5cB-uG-kGh.text" = "Subtitulo";
+
+/* Class = "UILabel"; text = "DESCRIPTION"; ObjectID = "6pg-92-iw6"; */
+"6pg-92-iw6.text" = "DESCRIÇ\AO";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "9Cd-yz-eIr"; */
+"9Cd-yz-eIr.normalTitle" = "Feito";
+
+/* Class = "UITabBarItem"; title = "Map View"; ObjectID = "AqN-FQ-EUn"; */
+"AqN-FQ-EUn.title" = "Vista do Mapa";
+
+/* Class = "UIViewController"; title = "Map"; ObjectID = "Bjb-7g-Fme"; */
+"Bjb-7g-Fme.title" = "Mapa";
+
+/* Class = "UITextField"; placeholder = "Diary Location"; ObjectID = "CQB-fo-C32"; */
+"CQB-fo-C32.placeholder" = "Localizaçao do Diário";
+
+/* Class = "UISegmentedControl"; DBc-bD-ykT.segmentTitles[0] = "Standard"; ObjectID = "DBc-bD-ykT"; */
+"DBc-bD-ykT.segmentTitles[0]" = "Normal";
+
+/* Class = "UISegmentedControl"; DBc-bD-ykT.segmentTitles[1] = "Satellite"; ObjectID = "DBc-bD-ykT"; */
+"DBc-bD-ykT.segmentTitles[1]" = "Satelite";
+
+/* Class = "UISegmentedControl"; DBc-bD-ykT.segmentTitles[2] = "Hybrid"; ObjectID = "DBc-bD-ykT"; */
+"DBc-bD-ykT.segmentTitles[2]" = "Hibrido";
+
+/* Class = "UILabel"; text = "Did you like to visit this place?"; ObjectID = "EeZ-JF-uqA"; */
+"EeZ-JF-uqA.text" = "Gostou de visitar este local?";
+
+/* Class = "UINavigationItem"; title = "Diary Entries"; ObjectID = "FVc-f2-Hvk"; */
+"FVc-f2-Hvk.title" = "Entradas no Diário";
+
+/* Class = "UILabel"; text = "DATE"; ObjectID = "Fpx-AT-j5x"; */
+"Fpx-AT-j5x.text" = "DATA";
+
+/* Class = "UINavigationItem"; title = "Diary"; ObjectID = "HUj-C7-fG9"; */
+"HUj-C7-fG9.title" = "Diario";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "HXf-rh-ZxC"; */
+"HXf-rh-ZxC.title" = "Feito";
+
+/* Class = "UITextField"; placeholder = "Diary Entry Date"; ObjectID = "JSI-Jh-Vdy"; */
+"JSI-Jh-Vdy.placeholder" = "Data do diário";
+
+/* Class = "UITextField"; placeholder = "Diary Description"; ObjectID = "L9i-Fv-tFd"; */
+"L9i-Fv-tFd.placeholder" = "Descriçao do diário";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "LdI-zG-qas"; */
+"LdI-zG-qas.text" = "Titulo";
+
+/* Class = "UILabel"; text = "TITLE"; ObjectID = "LnH-Bt-x3y"; */
+"LnH-Bt-x3y.text" = "TITULO";
+
+/* Class = "UILabel"; text = "COUNTRY"; ObjectID = "O4g-NU-ztd"; */
+"O4g-NU-ztd.text" = "PAIS";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "Ohg-4v-li8"; */
+"Ohg-4v-li8.text" = "Subtitulo;
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "PLJ-KI-fWt"; */
+"PLJ-KI-fWt.text" = "Titulo";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "QUO-BU-WJF"; */
+"QUO-BU-WJF.text" = "Nome";
+
+/* Class = "UITextField"; placeholder = "Trip Title"; ObjectID = "QZJ-hf-KOO"; */
+"QZJ-hf-KOO.placeholder" = "Titulo da Viagem";
+
+/* Class = "UIViewController"; title = "Diary Entries"; ObjectID = "SL8-ko-r6T"; */
+"SL8-ko-r6T.title" = "Entradas no Diário";
+
+/* Class = "UINavigationItem"; title = "Map"; ObjectID = "Ssc-wK-1pQ"; */
+"Ssc-wK-1pQ.title" = "Mapa";
+
+/* Class = "UILabel"; text = "Rating"; ObjectID = "U2i-L7-maX"; */
+"U2i-L7-maX.text" = "Avaliaçao";
+
+/* Class = "UIBarButtonItem"; title = "< Back"; ObjectID = "UrS-4k-hh7"; */
+"UrS-4k-hh7.title" = "< Voltar";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Vym-ro-zu7"; */
+"Vym-ro-zu7.text" = "Titulo";
+
+/* Class = "UINavigationItem"; title = "My Travels"; ObjectID = "WHR-T4-f3i"; */
+"WHR-T4-f3i.title" = "Minhas viagens";
+
+/* Class = "UINavigationItem"; title = "Select location"; ObjectID = "Yd6-rd-SNE"; */
+"Yd6-rd-SNE.title" = "Selecionar localizaçao";
+
+/* Class = "UILabel"; text = "diary title"; ObjectID = "Yk0-jw-XDF"; */
+"Yk0-jw-XDF.text" = "titulo do diario";
+
+/* Class = "UINavigationItem"; title = "Manage Travel"; ObjectID = "ZGb-z2-PT2"; */
+"ZGb-z2-PT2.title" = "Gerir Viagem";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "ZYJ-wh-Qu1"; */
+"ZYJ-wh-Qu1.text" = "Localizaçao";
+
+/* Class = "UILabel"; text = "Details"; ObjectID = "aH6-vh-c6R"; */
+"aH6-vh-c6R.text" = "Detalhes";
+
+/* Class = "UIButton"; normalTitle = "Get"; ObjectID = "apb-Xt-jSD"; */
+"apb-Xt-jSD.normalTitle" = "Ir";
+
+/* Class = "UITabBarItem"; title = "Diary Entries"; ObjectID = "bAt-v9-iVS"; */
+"bAt-v9-iVS.title" = "Entradas do Diario";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "fDq-no-Iur"; */
+"fDq-no-Iur.text" = "Titulo";
+
+/* Class = "UIButton"; normalTitle = "Change"; ObjectID = "fbG-jY-eLU"; */
+"fbG-jY-eLU.normalTitle" = "Trocar";
+
+/* Class = "UILabel"; text = "Weather"; ObjectID = "hjP-ja-n2E"; */
+"hjP-ja-n2E.text" = "Tempo";
+
+/* Class = "UIBarButtonItem"; title = "Read"; ObjectID = "hvZ-5O-Imn"; */
+"hvZ-5O-Imn.title" = "Ler";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "io8-mJ-jlG"; */
+"io8-mJ-jlG.title" = "Cancelar";
+
+/* Class = "UITextField"; placeholder = "Diary Entry Rating"; ObjectID = "jAE-DK-tg8"; */
+"jAE-DK-tg8.placeholder" = "Avaliaçao do Diario";
+
+/* Class = "UITextField"; placeholder = "Diary Title"; ObjectID = "jEa-Cs-yHg"; */
+"jEa-Cs-yHg.placeholder" = "Titulo do Diario";
+
+/* Class = "UILabel"; text = "LOCATION"; ObjectID = "lVT-A8-leL"; */
+"lVT-A8-leL.text" = "LOCALIZAÇAO";
+
+/* Class = "UINavigationItem"; title = "New Diary Entry"; ObjectID = "m9l-67-1fp"; */
+"m9l-67-1fp.title" = "Novo Diario";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "pfU-KS-eka"; */
+"pfU-KS-eka.normalTitle" = "Adicionar";
+
+/* Class = "UILabel"; text = "RATING"; ObjectID = "xdY-rm-IvX"; */
+"xdY-rm-IvX.text" = "AVALIAÇAO";
