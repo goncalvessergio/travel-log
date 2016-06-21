@@ -1,6 +1,6 @@
 # Travel Log
 iOS Application to store trip diaries
-[Video Demo](https://www.youtube.com/watch?v=QuAxoywjVsk){:target="_blank"}
+
 <a href="https://www.youtube.com/watch?v=QuAxoywjVsk" target="_blank">Video Demo</a>
 
 ![Alt text](/Screen%20Shots/trips.png?raw=true "Trips View")
